@@ -1,7 +1,7 @@
 import { useContext } from "react"
 
 // Context
-import { CompContext } from "../../context/compContext"
+import { CompContext } from "ctx_path"
 
 export default function Comp() {
   const context = useContext(CompContext)
